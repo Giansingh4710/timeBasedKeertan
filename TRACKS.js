@@ -33,15 +33,15 @@ const _3am_6am=[
 ]
 
 const _6am_9am = [
-  "http://45.41.235.161/~daasstor/keertan/raag/audios/3)6amto9 am/06 AMRITA PRI BACHAN TUMHARE, Raag Dev Gandhari Mahalla - 5.mp3",
-  "http://45.41.235.161/~daasstor/keertan/raag/audios/3)6amto9 am/Abh Hum Chali Thakur, Raag Devgandhari (Bhai Nirmal Singh Khalsa Ji).mp3",
-  "http://45.41.235.161/~daasstor/keertan/raag/audios/3)6amto9 am/Apne Har Pay Beanti Kehaiie, Raag DevGandhari (Dr Gurnam Singh Ji).mp3",
-  "http://45.41.235.161/~daasstor/keertan/raag/audios/3)6amto9 am/Bhai Balbir Singh, Sevak Jan Bane Thakur Liv Lage (Raag Devgandhari, Mahalla 4).mp3",
-  "http://45.41.235.161/~daasstor/keertan/raag/audios/3)6amto9 am/Bhai Satninder Singh Bodal _ Raag Devgandhari _ Ab Hum Chali Takhur Peh Har .mp3",
-  "http://45.41.235.161/~daasstor/keertan/raag/audios/3)6amto9 am/Bhai Siripal Singh Hazoori Ragi Sri Darbar Sahib _ Raag Devgandhari _ Mere Man Mukh Har Har Har .mp3",
-  "http://45.41.235.161/~daasstor/keertan/raag/audios/3)6amto9 am/Raag Devgandhari _ Jagat Mai Jhoothee Dekhee Preet _ Bhai Gurmeet Singh Shant.mp3",
-  "http://45.41.235.161/~daasstor/keertan/raag/audios/3)6amto9 am/Raag devgandhari - Att Sundar man Mohan piyare - Canada2019.mp3",
-  "http://45.41.235.161/~daasstor/keertan/raag/audios/3)6amto9 am/Raj Na Chahoon Mukt Na Chahoon, Raag Devgandhari (Bhai Davinder Singh Ji Bodal).mp3",
+  "http://45.41.235.161/~daasstor/keertan/raag/audios/3)6amto9am/06 AMRITA PRI BACHAN TUMHARE, Raag Dev Gandhari Mahalla - 5.mp3",
+  "http://45.41.235.161/~daasstor/keertan/raag/audios/3)6amto9am/Abh Hum Chali Thakur, Raag Devgandhari (Bhai Nirmal Singh Khalsa Ji).mp3",
+  "http://45.41.235.161/~daasstor/keertan/raag/audios/3)6amto9am/Apne Har Pay Beanti Kehaiie, Raag DevGandhari (Dr Gurnam Singh Ji).mp3",
+  "http://45.41.235.161/~daasstor/keertan/raag/audios/3)6amto9am/Bhai Balbir Singh, Sevak Jan Bane Thakur Liv Lage (Raag Devgandhari, Mahalla 4).mp3",
+  "http://45.41.235.161/~daasstor/keertan/raag/audios/3)6amto9am/Bhai Satninder Singh Bodal _ Raag Devgandhari _ Ab Hum Chali Takhur Peh Har .mp3",
+  "http://45.41.235.161/~daasstor/keertan/raag/audios/3)6amto9am/Bhai Siripal Singh Hazoori Ragi Sri Darbar Sahib _ Raag Devgandhari _ Mere Man Mukh Har Har Har .mp3",
+  "http://45.41.235.161/~daasstor/keertan/raag/audios/3)6amto9am/Raag Devgandhari _ Jagat Mai Jhoothee Dekhee Preet _ Bhai Gurmeet Singh Shant.mp3",
+  "http://45.41.235.161/~daasstor/keertan/raag/audios/3)6amto9am/Raag devgandhari - Att Sundar man Mohan piyare - Canada2019.mp3",
+  "http://45.41.235.161/~daasstor/keertan/raag/audios/3)6amto9am/Raj Na Chahoon Mukt Na Chahoon, Raag Devgandhari (Bhai Davinder Singh Ji Bodal).mp3",
 ]
 
 const _9am_12pm = [
