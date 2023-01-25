@@ -35,12 +35,16 @@
       Play &rarr;
     </button>
   </div>
+
+    <button onclick="toggleShowingTracks()">Show All Tracks (Toggle)</button>
+    <div id="showAllTracks" class="text"></div>
 </body>
 
 <script>
   let TRACK_LINKS;
   let THE_TIME_PERIOD;
 
+  const showTracksDiv = document.getElementById("showAllTracks")
   const theTracks = {
     "1) 12am to 3am": _12am_3am,
     "2) 3am to 6am": _3am_6am,
@@ -93,25 +97,30 @@
 
 
     TRACK_LINKS = theTracks[THE_TIME_PERIOD]
-
-    /*
-    const getColor = {
-      '1':"#FFFFFF",
-      '2':"#F5F5F5",
-      '3':"#DCDCDC",
-      '4':"#D3D3D3",
-      '5':"#C0C0C0",
-      '6':"#A9A9A9",
-      '7':"#808080",
-      '8':"#000000",
-    }
-    document.getElementById('body').style.color = getColor[THE_TIME_PERIOD[0]] */
+    showTracksDiv.innerHTML=''
 
     const imgPath = "./imgs/"+THE_TIME_PERIOD.replaceAll(" ",'')+'.jpg'
     console.log(imgPath)
     document.getElementById('body').style.backgroundImage =  `url("${imgPath}")`
     document.getElementById('tracksType').innerText = THE_TIME_PERIOD + " : 'Tracks in total for this time Period': " + TRACK_LINKS.length
   }
+
+  function toggleShowingTracks(){
+    if(showTracksDiv.innerHTML!=''){
+      showTracksDiv.innerHTML=''
+    }else{
+      showTracksDiv.innerHTML=`<h5>There are ${TRACK_LINKS.length} tracks</h5>`
+      const ol = document.createElement('ol')
+      for(const link of TRACK_LINKS){
+        const li = document.createElement('li')
+        li.innerHTML+=`<a href='${link}'>${getNameOfTrack(link)}</a>`
+        ol.appendChild(li)
+      }
+      showTracksDiv.appendChild(ol)
+    }
+  }
+
+  function getNameOfTrack(link){return link.split('/').slice(-1)[0]}
   changeTracksPool()
 </script>
   <script type="text/javascript" src="./script.js"></script>
